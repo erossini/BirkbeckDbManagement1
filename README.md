@@ -87,8 +87,8 @@ schema:
 | 4          | Dan Jones    | dan@mycompany.com    | 020 8777 6543  |
 
 Answer the following questions: 
-i. What are the possible Superkeys for this example providing your assumptions and explanation? (4 points) 
-ii. What are the possible Candidate Keys for this example providing your assumptions and explanation? (2 points) 
+  - What are the possible Superkeys for this example providing your assumptions and explanation? (4 points) 
+  - What are the possible Candidate Keys for this example providing your assumptions and explanation? (2 points) 
 
 3) What does the following query prove or disprove if it is assumed each employee tuplet in the Employee table has a one-to-one relationship with `EmployeeDetails` table?  Marks will be given your reasoning and explanation. (2 points)
 
@@ -103,10 +103,7 @@ WHERE EXISTS (
         WHERE ed.EmployeeID = e.EmployeeID );
 ```
 
-4) Note: This will require some research and a detailed answer. 
-When comparing the value of an attribute, say Title, to a NULL value in SQL, one is 
-required to use the syntax Title IS NULL or Title IS NOT NULL  
-(rather than using = or  !=). Explain why this special syntax is required. (6 points)
+4) Note: This will require some research and a detailed answer. When comparing the value of an attribute, say Title, to a NULL value in SQL, one is required to use the syntax `Title IS NULL` or `Title IS NOT NULL`  (rather than using `=` or  `!=`). Explain why this special syntax is required. (6 points)
 
 5) Give a short explanation of what is meant by each of the following terms:
     a. First Normal Form (1 point) 
